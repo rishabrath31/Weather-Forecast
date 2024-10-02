@@ -78,6 +78,7 @@ const displayWeatherData = (data) => {
     "weather-icon"
   ).src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
   weatherInfoSection.classList.remove("hidden");
+  weatherInfoSection.classList.add("flex");
 };
 
 // Fetch 5-Day Forecast
